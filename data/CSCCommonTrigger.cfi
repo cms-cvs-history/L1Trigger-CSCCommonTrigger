@@ -2,6 +2,6 @@
 block CSCCommonTrigger =
 {
    #minimum and maximum bx to process
-   untracked int32 MinBX = 3
-   untracked int32 MaxBX = 9
+   int32 MinBX = 3
+   int32 MaxBX = 9
 }
