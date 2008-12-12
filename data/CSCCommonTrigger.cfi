@@ -1,7 +1,0 @@
-#Common Parameters for the various CSCTrigger producers
-block CSCCommonTrigger =
-{
-   #minimum and maximum bx to process
-   int32 MinBX = 3
-   int32 MaxBX = 9
-}
