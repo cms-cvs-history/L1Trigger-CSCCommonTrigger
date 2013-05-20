@@ -12,9 +12,9 @@
 class CSCConstants
 {
  public:
-  enum WG_and_Strip { MAX_NUM_WIRES = 119, MAX_NUM_STRIPS = 80,
-			     NUM_DI_STRIPS = 40+1, // Add 1 to allow for staggering of strips
-			     NUM_HALF_STRIPS = 160+1};
+  enum WG_and_Strip { MAX_NUM_WIRES = 119, MAX_NUM_STRIPS = 112,
+			     NUM_DI_STRIPS = 56+1, // Add 1 to allow for staggering of strips
+			     NUM_HALF_STRIPS = 112*2 + 1};
 
   enum Layer_Info { NUM_LAYERS = 6, KEY_CLCT_LAYER = 3, KEY_CLCT_LAYER_PRE_TMB07 = 4, KEY_ALCT_LAYER = 3 };
 
